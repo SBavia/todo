@@ -1,0 +1,17 @@
+.todo-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 700px;
+    margin-top: 50px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    cursor: pointer;
+    border: 2px solid;
+    width: 700px;
+    height: 30px;
+}

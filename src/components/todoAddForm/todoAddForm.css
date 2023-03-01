@@ -1,0 +1,21 @@
+form {
+    margin-top: 20px;
+    display: flex;
+}
+
+.title, .description {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.error {
+    color: #ff6f69;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+}
